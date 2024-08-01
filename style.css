@@ -21,7 +21,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 5px;
+    gap: 10px;
 }
 
 .container {
