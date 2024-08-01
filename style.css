@@ -24,8 +24,8 @@ body {
 }
 
 .container {
-    border: solid 1px black;
-    max-width: 200px;
+    
+    max-width: 150px;
     padding: 10px 20px;
     display: flex;
     flex-direction: column;
@@ -33,6 +33,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-grow: 1;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.24);
 }
 
 .container > p {
@@ -40,8 +41,9 @@ body {
 }
 
 .container > h1 {
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
+    color: rgb(0, 0, 0);
 }
 
 .container > input {
@@ -49,7 +51,7 @@ body {
     padding: 10px;
     border-radius: 5px;
     border: solid 1px black;
-    color: red;
+    color: rgb(255, 0, 0);
     font-weight: bold;
     font-size: 18px;
 }
@@ -69,7 +71,7 @@ button {
     text-align: center;
     margin-bottom: 20px;
     font-size: 40px;
-    color: rgb(0, 89, 255);
+    color: rgb(0, 0, 0);
 }
 
 
